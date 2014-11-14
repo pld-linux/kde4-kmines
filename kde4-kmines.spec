@@ -6,12 +6,12 @@ Summary:	KDE minesweeper game
 Summary(pl.UTF-8):	Saper dla KDE
 Summary(pt_BR.UTF-8):	Versão do jogo 'caça-minas' para o KDE
 Name:		kde4-%{orgname}
-Version:	4.14.0
+Version:	4.14.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	47943badc0357333f7d135bfcebfda3a
+# Source0-md5:	a1bc886a9d473598ef5e8d14e9d565e0
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
